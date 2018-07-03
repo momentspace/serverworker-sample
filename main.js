@@ -1,5 +1,5 @@
 
-navigator.serviceWorker.register('serviceworker.js').then(
+navigator.serviceWorker.register('./serviceworker.js').then(
   function(serviceWorkerRegistration) {
     serviceWorkerRegistration.pushManager.subscribe().then(
       function(pushSubscription) {
